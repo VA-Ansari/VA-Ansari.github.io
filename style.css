@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&display=swap');
+
+body{
+    display: block;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --primary-font-clr: #f9004d;
+    --secondary-bg-clr: #191919;
+    --pink-font-clr: #ffccff;
+}
+
+.button{
+    background-color: var(--primary-font-clr);
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button:hover{
+    transform: scale(1.2);
+
+}
+
+/* hero section  */
+.hero{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/asset\ 1.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 4%;
+    justify-content: space-between;
+}
+nav h2{
+    padding-left: 10px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+nav ul{
+    padding-left: 150px;
+}
+span{
+    color: var(--primary-font-clr);
+    font-weight: 700 bold;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.subscribe{
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.firstp{
+    padding-bottom: 35px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: var(--pink-font-clr);
+    opacity: 80%;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700 bold;
+    margin: 0 10px;
+}
+.lastp{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    padding-top: 50px;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid var(--primary-font-clr);
+    border-radius: 30px;
+    outline: none;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    box-shadow: 0 0 5px #000, 0 0 15px #858585;
+    top: 54px;
+    right: 6px;
+}
+
+/* About Me section */
+.aboutMe{
+    width: 100%;
+    padding: 100px 0;
+    background-color: var(--secondary-bg-clr);
+}
+.about_text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_text h2{
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+    color: white;
+}
+.firstpabout{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.lastpabout{
+    color: var(--pink-font-clr);
+    opacity: 80%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.btn{
+    transform: 4s;
+}
+.btn:hover{
+    background-color: #000;
+}
+
+
+/* Service section */
+.service{
+    width: 100%;
+    padding: 60px 0;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+}
+.service h2{
+    font-size: 40px;
+    font-weight: 700 bolder;
+    color: white;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    min-height: 350px;
+}
+.card{
+    height: 265px;
+    width: 335px;
+    padding: 25px 35px;
+    margin: 15px;
+    background-color: var(--secondary-bg-clr);
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+/* Hire Me section */
+.hireme{
+    min-height: 200px;
+    background-color: var(--secondary-bg-clr);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hireme h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.hirebtn{
+    width: 150px;
+    text-align: center;
+}
+
+
+/* Footer  */
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sharebtn{
+    border-radius: 50%;
+}
+footer h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.share{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.share a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+footer p{
+    color: var(--primary-font-clr);
+    font-size: 12px;
+}
