@@ -149,6 +149,10 @@ h1{
     align-items: center;
     justify-content: space-around;
 }
+.image_me{
+    height: auto;
+     width: 430px;
+}
 .about_text h2{
     font-size: 55px;
     font-weight: bold;

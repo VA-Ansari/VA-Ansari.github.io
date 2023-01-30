@@ -1,0 +1,136 @@
+@media screen and (max-width: 1450px) {
+    nav {
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    nav h2 {
+        padding-left: 0px;
+    }
+    nav ul {
+        padding-left: 0px;
+        margin-left: 150px;
+    }
+    nav ul li {
+        padding: 0px 20px;
+    }
+    .subscribe {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+/* About me  */
+    .main {
+        width: 1250px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about_text {
+        width: 660px;
+    }
+  }
+
+
+  @media screen and (max-width: 1330px) {
+    nav ul {
+        display: none;
+    }
+    nav h2 {
+        padding-left: 30px;
+    }
+    .subscribe {
+        margin-right: 55px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .lastp {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .newsletter form {
+        width: 454px;
+    }
+    .main {
+        width: 100%;
+        gap: 50px;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    .service-cards {
+        justify-content: space-between;
+    }
+    .card {
+        height: 600px;
+        width: 95%;
+        padding: 10px 25px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    nav h2 {
+        padding-left: 0px;
+        font-size: 35px;
+    }
+    .subscribe{
+        margin-right: 0;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .firstp {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .lastp {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .newsletter form {
+        width: 350px;
+    }
+    .aboutMe {
+        padding: 40px 0;
+    }
+    .main {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .image_me{
+        width: 380px;
+    }
+    .about_text {
+        width: 550px;
+        padding: 0 20px;
+    }
+    .about_text h2 {
+        font-size: 45px;
+    }
+    .service {
+        padding: 40px 0;
+    }
+    .service h2 {
+        font-size: 35px;
+        color: white;
+    }
+    .service-cards {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .card {
+        height: 200px;
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    
+  }
